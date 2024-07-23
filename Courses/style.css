@@ -1,0 +1,30 @@
+body{
+    padding:50px;
+    background-color: #c9d6ff;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+}
+.form-group{
+    margin-bottom:30px;
+}
+.button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+.back-btn,
+.show-course-btn {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: 20px;
+}

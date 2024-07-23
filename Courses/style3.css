@@ -1,0 +1,135 @@
+body {
+    background-color: #f8f9fa;
+    color: #495057;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #6f42c1;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dee2e6;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 16px;
+    color: #6c757d;
+    position: relative;
+    transition: background-color 0.3s ease-in-out;
+}
+
+th {
+    background-color: #6f42c1;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+tr:hover {
+    background-color: #e9ecef;
+}
+
+h1 {
+    text-align: center;
+    color: #6f42c1;
+    margin-top: 30px;
+}
+
+.back-btn,
+.add-course-btn {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.add-course-btn {
+    margin-left: 10px;
+}
+
+.back-btn:hover,
+.add-course-btn:hover {
+    background-color: #5a6268;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.table-wrapper {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-more-btn {
+    background-color: #6f42c1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.view-more-btn:hover {
+    background-color: #5a3b86;
+}
+
+.date-cell {
+    white-space: nowrap;
+    min-width: 120px;
+}
+
+.table-container table tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.table-container table td:hover {
+    background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 600px) {
+    th, td {
+        font-size: 14px;
+    }
+}
